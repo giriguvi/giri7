@@ -1,10 +1,10 @@
-#include<stdio.h>
-int main()
+#include<stdio.h> 
+void main()
 {
-int a,b,i;
+int a,j,i;
 printf("enter the two limits");
-scanf("%d%d",&a,&b);
-for(i=a;i<b;i++)
+scanf("%d%d",&a,&j);
+for(i=a;i<j;i++)
 {
 if((i)%2==0)
 printf("%d\n",i);
