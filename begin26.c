@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
    int n,a[100],i,temp,j,k;
    printf("enter the count\nenter the elements");
@@ -22,6 +22,6 @@ void main()
       }
    
    }
-        printf(" %d\t",a[j/2]);
-
+        printf(" %d",a[j/2]);
+return 0;
 }
