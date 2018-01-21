@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-char s[100];
+char j[100];
 int c=0;
-scanf("%s",s);
-for(i=0;s[i]!='\0';i++)
+scanf("%s",j);
+for(i=0;j[i]!='\0';i++)
 {
-if(s[i]=='.')
+if(j[i]=='.')
 c++;
 }
 printf("\n lines=%d",c);
