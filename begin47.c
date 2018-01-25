@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
 	int n,min,max,i,a[50];
 	printf("enter the no");
 	scanf("%d",&n);
