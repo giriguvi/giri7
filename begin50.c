@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int n;
+int a;
 printf("\nEnter the number:");
-scanf("%d",&n);
-if(n%2==0)
+scanf("%d",&a);
+if(a%2==0)
 {
 printf("it is power of two");
 }
