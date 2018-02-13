@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int main(void) {
+void main()
+{
 	int max,i,n,a[30];
 	printf("enter the n value");
 	scanf("%d",&n);
@@ -17,5 +17,4 @@ int main(void) {
 	}
 	}
 	printf("max value is %d",max);
-	return 0;
 }
