@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int i,n,c=0;
     printf ("Enter a number \n");
@@ -10,7 +10,8 @@ void main()
         c=c+1;
     }
     if (c==2)
-    printf ("The number is PRIME");
+    printf ("no");
     else
-    printf ("The number is COMPOSITE");
+    printf ("YES,The number is COMPOSITE");
+    return 0;
 }
