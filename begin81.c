@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 	int a[10][2],n,i;
 	printf("enter how many rows in kabali's ninja clan\n");
@@ -14,5 +14,6 @@ void main()
 		printf("%d\n",a[i][0]-a[i][1]);
 	else if(a[i][0]<a[i][1])
 		printf("%d\n",a[i][1]-a[i][0]);
-	}	
+	}
+	return 0;
 }
