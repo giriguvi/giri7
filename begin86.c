@@ -1,10 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int n,i;
-char s[40];
-printf("enter the string");
-scanf("%s",&s);
+int n,i,count=0;
+char s[40]="1234";
 n=strlen(s);
 for(i=0;i<=n;i++)
 {
